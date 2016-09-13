@@ -87,6 +87,9 @@ $sugar->countRecords('Cases', array(
 /* Retrieve a specific record from the Cases module */
 $sugar->retrieve('Cases', $record_id);
 
+/* Remove a specific record from the Accounts module */
+$sugar->delete('Accounts', $record_id);
+
 /* Create a case */
 $sugar->create('Cases', array(
 	'name' => 'Case Name',
